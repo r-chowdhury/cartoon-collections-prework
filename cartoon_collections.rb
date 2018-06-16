@@ -9,7 +9,10 @@ def summon_captain_planet(planeteers)# code an argument here
   # Your code here
   planeteers_changed = planeteers.collect do |planeteer|
     planeteer_capitalized = planeteer.capitalize
-    
+    planeteer_capitalized += "1"
+  end
+  
+  return planeteers_changed
 end
 
 def long_planeteer_calls# code an argument here
