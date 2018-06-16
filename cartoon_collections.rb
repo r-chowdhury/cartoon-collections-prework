@@ -28,6 +28,7 @@ def find_the_cheese(cheeses)# code an argument here
   cheese_types.each do |cheese_type|
     cheeses.each do |cheese|
       if cheese_type = cheese 
-        return cheese_type
+        return cheese_type 
+  return nil
     
 end
