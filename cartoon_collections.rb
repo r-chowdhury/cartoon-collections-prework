@@ -17,7 +17,7 @@ end
 
 def long_planeteer_calls(words)# code an argument here
   # Your code here
-  return words.any do |word|
+  return words.any? do |word|
     word.length > 4
   end
 end
