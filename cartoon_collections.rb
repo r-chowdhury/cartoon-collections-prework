@@ -29,6 +29,9 @@ def find_the_cheese(cheeses)# code an argument here
     cheeses.each do |cheese|
       if cheese_type = cheese 
         return cheese_type 
+      end
+    end 
+  end
   return nil
     
 end
