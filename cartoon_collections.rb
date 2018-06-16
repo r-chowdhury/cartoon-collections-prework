@@ -27,7 +27,7 @@ def find_the_cheese(cheeses)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each do |cheese_type|
     cheeses.each do |cheese|
-      if cheese_type = cheese 
+      if cheese_type == cheese 
         return cheese_type 
       end
     end 
